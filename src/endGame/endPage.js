@@ -18,7 +18,7 @@ export const EndPage = ({game,setGame}) => {
 							round: 1,
 							id:  0,
 						})
-					}} to="/">Play again</Link>
+					}} to="/project00">Play again</Link>
 				</button>
 			</div>
 		</div>

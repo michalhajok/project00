@@ -21,7 +21,7 @@ const App = () => {
 
   return (
     <Router className='container'>
-		  <StartPage path="/" setCategory={setCategory} category={category} />
+		  <StartPage path="/project00" setCategory={setCategory} category={category} />
       <QuizPage path="/quiz" category={category} game={game} setGame={setGame} />
 		<EndPage game={game} setGame={setGame} path="/endPage" />
 	</Router>
